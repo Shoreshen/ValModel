@@ -9,7 +9,6 @@ extern __declspec(dllexport) int __stdcall ExcelCalc(char *PlanID, int age, int 
 	resRT    *ResRT;
 	resCF    *ResCF, *OutPut;
 
-
 #pragma region Innitialization
 	//Allocate and clear memory
 	AllHeap = NULL;
